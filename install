@@ -3,25 +3,25 @@
 # Buildroot version to use
 RELEASE='2022.08'
 
-# echo "-------------"
-# echo "updating ..."
-# echo "-------------"
-# apt update && apt -y upgrade
+echo "-------------"
+echo "updating ..."
+echo "-------------"
+apt update && apt -y upgrade
 
-# echo "--------------------------------"
-# echo "Installing Mandatory packages.."
-# echo "--------------------------------"
-# apt install -y git vim sed make binutils build-essential diffutils gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc findutils curl wget
+echo "--------------------------------"
+echo "Installing Mandatory packages.."
+echo "--------------------------------"
+apt install -y git vim sed make binutils build-essential diffutils gcc g++ bash patch gzip bzip2 perl tar cpio unzip rsync file bc findutils curl wget
 
-# echo "-------------------------------"
-# echo "Installing Optional packages.."
-# echo "-------------------------------"
-# apt install -y cvs mercurial subversion 
+echo "-------------------------------"
+echo "Installing Optional packages.."
+echo "-------------------------------"
+apt install -y cvs mercurial subversion 
 
-# echo "--------------------------------"
-# echo "Installing documentation tools.."
-# echo "--------------------------------"
-# apt install -y asciidoc w3m dblatex graphviz
+echo "--------------------------------"
+echo "Installing documentation tools.."
+echo "--------------------------------"
+apt install -y asciidoc w3m dblatex graphviz
 
 
 echo "------------------------------------------------"
